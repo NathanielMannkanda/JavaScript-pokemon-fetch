@@ -1,0 +1,25 @@
+/* ==================== RESPONSIVE DESIGN ==================== */
+@media (max-width: 480px) {
+  .pokemon-background {
+    padding: 20px 15px;
+    border-width: 6px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .search-container {
+    flex-direction: column;
+  }
+
+  .search-bar,
+  .search-button {
+    width: 100%;
+  }
+
+  .pokemon-style {
+    width: 200px;
+    height: 200px;
+  }
+}

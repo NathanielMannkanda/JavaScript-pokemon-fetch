@@ -95,9 +95,6 @@
   transform: translateY(-1px);
 }
 
-/* ==================== POKEMON DISPLAY ==================== */
-
-
 /* ==================== ATTACK SECTION ==================== */
 .attack-section {
   margin-top: 40px;
@@ -144,37 +141,11 @@
   margin-top: 30px;
   padding: 20px;
   background: rgba(255, 255, 255, 0.15);
-  border: 3px solid #FFD700;
+  border: 3px solid #535353;
   border-radius: 15px;
   color: #FFFFFF;
   font-size: 18px;
   font-weight: bold;
   min-height: 30px;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
-}
-
-/* ==================== RESPONSIVE DESIGN ==================== */
-@media (max-width: 480px) {
-  .pokemon-background {
-    padding: 20px 15px;
-    border-width: 6px;
-  }
-
-  .title {
-    font-size: 36px;
-  }
-
-  .search-container {
-    flex-direction: column;
-  }
-
-  .search-bar,
-  .search-button {
-    width: 100%;
-  }
-
-  .pokemon-style {
-    width: 200px;
-    height: 200px;
-  }
 }

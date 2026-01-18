@@ -1,0 +1,23 @@
+.pokemon-display {
+  margin: 40px 0;
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 70%);
+  border-radius: 15px;
+  padding: 20px;
+  border: 4px dashed rgba(255, 215, 0, 0.3);
+}
+
+.pokemon-style {
+  width: 250px;
+  height: 250px;
+  image-rendering: pixelated;
+  filter: drop-shadow(0 8px 15px rgba(0, 0, 0, 0.3));
+  transition: transform 0.3s ease;
+}
+
+.pokemon-style:hover {
+  transform: scale(1.1) rotate(5deg);
+}

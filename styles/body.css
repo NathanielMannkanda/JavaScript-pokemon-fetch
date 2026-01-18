@@ -1,0 +1,22 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #a1ffce 0%, #faffd1 50%, #ffdde1 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* MAIN CONTAINER */
+
+.pokemon-background {
+  background: linear-gradient(180deg, #3bca85 0%, #1f6e27 100%);
+  border-radius: 20px;
+  padding: 40px 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  max-width: 600px;
+  width: 100%;
+  border: 8px solid #585858;
+}

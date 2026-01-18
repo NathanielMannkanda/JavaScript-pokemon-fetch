@@ -1,7 +1,10 @@
 @font-face {
   font-family: "Pokemon";
-  src: url("/public/fonts/PokemonSolid.ttf") format("truetype");
+  src: url("/JavaScript-pokemon-fetch/fonts/Pokemon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
+
 
 h1 {
   font-family: "Pokemon", sans-serif;
